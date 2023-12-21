@@ -8,6 +8,7 @@ const Layout = (props: Props) => {
     <Stack>
       <Stack.Screen name="index" options={{ title: "login" }} />
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen name="modal" options={{ presentation: "formSheet" }} />
     </Stack>
   );
 };

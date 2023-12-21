@@ -12,7 +12,7 @@ export default function Page() {
       <Link href={"/two"} asChild>
         <Button title="go to two" />
       </Link>
-      <Link href={"/one/details"} asChild>
+      <Link href={"modal"} asChild>
         <Button title="go to details" />
       </Link>
     </View>
